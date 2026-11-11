@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мое Портфолио</title>
-    <!-- Подключаем наш CSS файл из папки styles -->
+    <meta charset="utf-8">
+    <title>Мини-портфолио</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
-        <h1>Привет, я [Ваше Имя]</h1>
-        <p>Начинающий веб-разработчик и специалист по сетям</p>
-    </header>
+    <div class="portfolio">
+        <div class="header">
+            <div class="header-text">
+                <h1>Рахманина Лина</h1>
+                <h2>ИТКР-225</h2>
+                
+                <div class="info">
+                    <p>18 лет</p>
+                    <p>Москва</p>
+                </div>
 
-    <main>
-        <section class="skills">
-            <h2>Мои профессиональные навыки:</h2>
-            <ul>
-                <li>HTML5 & CSS3</li>
-                <li>Основы DNS и настройка хостинга</li>
-                <li>Git и GitHub</li>
-                <li>Работа с командной строкой</li>
-            </ul>
-        </section>
-    </main>
-
-    <footer>
-        <p>© 2026. Лабораторная работа №7</p>
-    </footer>
+                <div class="skills">
+                    <h3>Навыки</h3>
+                    <ul>
+                        <li>HTML5 & CSS</li>
+                        <li>Основы DNS и настройка хостинга</li>
+                        <li>Git и GitHub</li>
+                        <li>Работа с командной строкой</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="header-photo">
+                <img src="photo.jpg" alt="Фотография">
+            </div>
+        </div>
+    </div>
 </body>
 </html>

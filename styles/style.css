@@ -1,0 +1,57 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+header {
+    background-color: #24292e; /* Цвет GitHub */
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.skills {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.skills h2 {
+    color: #0366d6;
+    border-bottom: 2px solid #0366d6;
+    padding-bottom: 0.5rem;
+}
+
+.skills ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+}
+
+.skills li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #24292e;
+    color: #ccc;
+    margin-top: 3rem;
+}
